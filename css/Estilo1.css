@@ -1,0 +1,68 @@
+body{
+    background: linear-gradient(to right, white, lightblue);
+}
+header{
+    text-align: center;
+}
+.headerTitulo h1{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: bold;
+}
+.divLetra h3{
+    font-family: 'Archivo Narrow', sans-serif;
+    padding-top: 30px;
+}
+.divLetra p{
+    font-family: 'Archivo Narrow', sans-serif;
+}
+.divLetra button{
+    font-family: 'Archivo Narrow', sans-serif;
+    border-radius: 12px;
+    border: 1px solid black;
+    transition-duration: 0.4s;
+    background-color: white;
+}
+.divLetra button:hover{
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+.divLetra a:link{
+    color:black;
+}
+.divLetra select{
+    font-family: 'Archivo Narrow', sans-serif;
+    border-radius: 12px;
+    border: 1px solid black;
+}
+.divLetra input{
+    font-family: 'Archivo Narrow', sans-serif;
+    border-radius: 12px;
+    border: 1px solid black;
+    text-indent: 8px;
+    width: 200px;
+}
+.divLetra span{
+    font-family: 'Archivo Narrow', sans-serif;
+    margin-left: -80px;
+}
+.boton {
+    margin-top: 20px;
+    width: 200px;
+}
+.divLetra canvas{
+    background-color: white;
+}
+
+.btn {
+    width: 100px;
+}
+
+.marginVideo{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.red{
+    background-color: rgba(255,0,0,0.4);
+}
+

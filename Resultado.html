@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problema Fisica "Tiro Oblicuo"</title>
+    <link rel="icon" type="image/png" href="favicon.ico"/>
+    <link href='https://fonts.googleapis.com/css?family=Archivo+Narrow:400,700' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="css/Estilo1.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>
+    <!--primero se añade jquery despues bootstrap-->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/hojaCalculo.js"></script>
+    <script type="text/javascript" src="js/canvas.js"></script>
+    <script type="text/javascript" src="js/alerta.js"></script>
+
+    <script src="js/alertify.min.js"></script>
+    <link rel="stylesheet" href="css/alertify.min.css" /> <!--esto ?-->
+    <link rel="stylesheet" href="css/themes/default.min.css" /> <!--esto ?-->
+    <link rel="stylesheet" href="css/themes/default.rtl.min.css" /> <!--esto ?-->
+</head>
+<body  onLoad="cargarResultado()" >
+
+<div class="container-fluid">
+    <header class="headerTitulo">
+        <h1>
+            Cálculo de trayectoria de bomba tirada<br>
+            con un mortero (tiro oblicuo)
+        </h1>
+    </header>
+
+    <div class="divLetra">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-1">
+                <h3>RESULTADO</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-md-offset-3">
+                <p>Los datos calculados son: </p> <br>
+                </div>
+            </div>
+        <div class="row">
+            <div class="col-md-1 col-md-offset-3">
+                <p>Tiempo: </p>
+                </div>
+            <div class="col-md-3">
+                <input type="text" name="lname" disabled id="Tiempo"><br>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-1 col-md-offset-3">
+                <p>Distancia: </p>
+            </div>
+            <div class="col-md-3">
+                <input type="text" name="lname" disabled id="Distancia"><br>
+            </div>
+        </div>
+
+            <div class="row">
+                <div class="col-md-4 col-md-offset-1">
+                    <h3>GRAFICO</h3>
+                </div>
+            </div>
+
+
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+                <canvas id="lienzo" width="500" height="300" style="border:1px solid #000000;">
+                    Your browser does not support the HTML5 canvas tag.
+                </canvas>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-2 col-md-offset-9">
+                <a href="index.html">
+                    <button class="btn" type="button">Volver</button>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
